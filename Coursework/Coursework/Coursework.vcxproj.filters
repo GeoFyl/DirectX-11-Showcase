@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Basic">
+      <UniqueIdentifier>{57076d5b-d789-4a46-b998-0dfd381e5206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Terrain">
+      <UniqueIdentifier>{d6c688da-33fc-427e-8e0c-f28724399b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Water">
+      <UniqueIdentifier>{6b98c92a-8b12-4d1c-8a01-d75990b03919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Bloom">
+      <UniqueIdentifier>{dc4bf6e8-ca5a-4654-a255-e6c882727393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Grass">
+      <UniqueIdentifier>{057db514-7075-48be-8330-5ab5e02b3091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Models">
+      <UniqueIdentifier>{a82208b7-f7fd-4db8-937a-c8bf27b6ba7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders">
+      <UniqueIdentifier>{3ac18109-e89c-4cef-8df9-900a759dfcaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders\Bloom">
+      <UniqueIdentifier>{d29795cf-19d7-460f-96f2-6280eaae7145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders\Grass">
+      <UniqueIdentifier>{fe2ee6f2-191a-46c0-bb91-3926e20cd715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders\Terrain">
+      <UniqueIdentifier>{faed5eae-5aec-49e3-92c0-f17b68bb6267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders\Models">
+      <UniqueIdentifier>{c155647a-3834-45ba-bd0e-860ffcfa0c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders\Basic">
+      <UniqueIdentifier>{283ee7c9-b5cc-4021-964a-6347451713ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{09ef1638-9f59-4623-ba9b-a8fe2eee99d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders\Bloom">
+      <UniqueIdentifier>{f323be4e-e0a6-48e7-a800-d1d6a8354c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders\Grass">
+      <UniqueIdentifier>{14fa6f0c-47b1-4a29-969e-56789f6a9ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders\Models">
+      <UniqueIdentifier>{bdb88d96-a0c6-4100-9008-53a61eb9c041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders\Basic">
+      <UniqueIdentifier>{794f9f37-5dc1-4f65-b04f-076786fa0bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders\Terrain">
+      <UniqueIdentifier>{829d4af5-bf0f-4359-bb44-4bb5b5a1369b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unused">
+      <UniqueIdentifier>{bbee9939-63b0-4192-afdc-03a9a975156f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Unused">
+      <UniqueIdentifier>{073a512b-3775-40c4-88bd-b0664556f4e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TessellationPlaneMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainShader.cpp">
+      <Filter>Source Files\Shaders\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainDepthShader.cpp">
+      <Filter>Source Files\Shaders\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="BloomFilterBlurHor.cpp">
+      <Filter>Source Files\Shaders\Bloom</Filter>
+    </ClCompile>
+    <ClCompile Include="BloomBlurVert.cpp">
+      <Filter>Source Files\Shaders\Bloom</Filter>
+    </ClCompile>
+    <ClCompile Include="BloomCombine.cpp">
+      <Filter>Source Files\Shaders\Bloom</Filter>
+    </ClCompile>
+    <ClCompile Include="GrassShader.cpp">
+      <Filter>Source Files\Shaders\Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="GrassDepthShader.cpp">
+      <Filter>Source Files\Shaders\Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelDepthShader.cpp">
+      <Filter>Source Files\Shaders\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelShader.cpp">
+      <Filter>Source Files\Shaders\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicShader.cpp">
+      <Filter>Source Files\Shaders\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureShader.cpp">
+      <Filter>Source Files\Shaders\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthNormalBufferSSAO.cpp">
+      <Filter>Source Files\Unused</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TessellationPlaneMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainShader.h">
+      <Filter>Header Files\Shaders\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainDepthShader.h">
+      <Filter>Header Files\Shaders\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="BloomCombine.h">
+      <Filter>Header Files\Shaders\Bloom</Filter>
+    </ClInclude>
+    <ClInclude Include="BloomFilterBlurHor.h">
+      <Filter>Header Files\Shaders\Bloom</Filter>
+    </ClInclude>
+    <ClInclude Include="BloomBlurVert.h">
+      <Filter>Header Files\Shaders\Bloom</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassShader.h">
+      <Filter>Header Files\Shaders\Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassDepthShader.h">
+      <Filter>Header Files\Shaders\Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelDepthShader.h">
+      <Filter>Header Files\Shaders\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelShader.h">
+      <Filter>Header Files\Shaders\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicShader.h">
+      <Filter>Header Files\Shaders\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureShader.h">
+      <Filter>Header Files\Shaders\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthNormalBufferSSAO.h">
+      <Filter>Header Files\Unused</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shaders\tessellation_hs.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\basic_ps.hlsl">
+      <Filter>Resource Files\Basic</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\basic_vs.hlsl">
+      <Filter>Resource Files\Basic</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\terrain_ds.hlsl">
+      <Filter>Resource Files\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\terrain_ps.hlsl">
+      <Filter>Resource Files\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\terrain_vs.hlsl">
+      <Filter>Resource Files\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\water_ds.hlsl">
+      <Filter>Resource Files\Water</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\water_ps.hlsl">
+      <Filter>Resource Files\Water</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\water_vs.hlsl">
+      <Filter>Resource Files\Water</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\texture_ps.hlsl">
+      <Filter>Resource Files\Basic</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\bloom_filter_blur_hor_cs.hlsl">
+      <Filter>Resource Files\Bloom</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\bloom_blur_vert_cs.hlsl">
+      <Filter>Resource Files\Bloom</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\bloom_combine_cs.hlsl">
+      <Filter>Resource Files\Bloom</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\grass_ps.hlsl">
+      <Filter>Resource Files\Grass</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\grass_gs.hlsl">
+      <Filter>Resource Files\Grass</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\grass_tessellation_hs.hlsl">
+      <Filter>Resource Files\Grass</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\model_ps.hlsl">
+      <Filter>Resource Files\Models</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\model_vs.hlsl">
+      <Filter>Resource Files\Models</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\common.hlsli">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\terrain.hlsli">
+      <Filter>Resource Files\Terrain</Filter>
+    </None>
+    <None Include="shaders\water.hlsli">
+      <Filter>Resource Files\Water</Filter>
+    </None>
+    <None Include="shaders\bloom.hlsli">
+      <Filter>Resource Files\Bloom</Filter>
+    </None>
+  </ItemGroup>
+</Project>
